@@ -15,7 +15,7 @@ Interesting Code: Add to Cart Logic
 One piece of logic I'm proud of is in ShoppingCartService.addToCart(). Rather than always inserting a new row, it checks whether the product is already in the user's cart and either inserts a new row (quantity 1) or increments the existing quantity:
 
 Setup
-Run the appropriate .sql script in MySQL Workbench to create the database
-Update application.properties with your database name/credentials
-Run the Spring Boot application
-Use Insomnia (or the included frontend) to interact with the A
+1.Run the appropriate .sql script in MySQL Workbench to create the database
+2.Update application.properties with your database name/credentials
+3.Run the Spring Boot application
+4.Use Insomnia (or the included frontend) to interact with the A
